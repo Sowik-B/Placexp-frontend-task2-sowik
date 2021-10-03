@@ -225,3 +225,27 @@ nav ul li a{
         flex-basis: 100%;   
     }
 }
+/*footer*/
+#footer{
+    padding: 70px 0 20px;
+    background: #f6e8f7;
+}
+.socials{
+    text-align: center;
+}
+.socials img{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #6c208f;
+    margin: 40px 5px 0;
+    color: #6c208f;
+    cursor: pointer;
+    transition: .3s;
+}
+.socials img:hover{
+    background: #6c208f;
+    color: white;
+    transform: translateY(-5px);
+}
