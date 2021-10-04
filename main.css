@@ -245,7 +245,7 @@ nav ul li a{
     transition: .3s;
 }
 .socials img:hover{
-    background: #6c208f;
+    background: #ee85e5;
     color: white;
     transform: translateY(-5px);
 }
