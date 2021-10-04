@@ -119,16 +119,6 @@ nav ul li a{
     z-index: 1;
     display: inline-block;
 }
-.title-text p::after{
-    content: '';
-    width: 140px;
-    height: 30px;
-    background: linear-gradient(#d599f1,#fff);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
 .title-text h1{
     font-size: 50px;
 }
@@ -229,6 +219,39 @@ nav ul li a{
 #footer{
     padding: 70px 0 20px;
     background: #f6e8f7;
+}
+.form{
+    padding: 2.5em;
+    text-align: center;
+}
+.form label{
+    display: block;
+}
+.form input[type="text"], textarea{
+    padding: .5em;
+    width: 30%;
+    border: 1px solid #310446;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #e1bef1;
+}
+input[type=submit]{
+    background-color: #ae00ff;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: .5em;
+    margin: auto;
+    justify-content: center;
+}
+input[type=submit]:hover{
+    background-color: #cf68ff;
+    color: black;
 }
 .socials{
     text-align: center;
